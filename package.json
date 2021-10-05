@@ -1,0 +1,15 @@
+{
+  "name": "vertical-slice",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Alexis Rifaut",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
