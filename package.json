@@ -2,9 +2,14 @@
   "name": "vertical-slice",
   "version": "0.0.1",
   "description": "",
-  "main": "index.ts",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "npx tsc"
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RifautAlexis/vertical-slice"
   },
   "keywords": [],
   "author": "Alexis Rifaut",

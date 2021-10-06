@@ -1,1 +1,5 @@
-console.log("Hello World");
+export class VerticalSlice {
+    public Hello(): void {
+        console.log("Hello World");
+    }
+}
