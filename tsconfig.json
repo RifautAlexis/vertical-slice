@@ -6,14 +6,15 @@
     "incremental": true,                              /* Enable incremental compilation */
 
     /* Language and Environment */
-    "target": "es5",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es2015",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
 
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
+    "module": "es2015",                                /* Specify what module code is generated. */
 
     /* Emit */
     "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
-    "outDir": "./lib",                                   /* Specify an output folder for all emitted files. */
+    "outDir": "./lib/",                                   /* Specify an output folder for all emitted files. */
+    "rootDir": "./src/",
 
     /* Interop Constraints */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
@@ -38,6 +39,6 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "src"
+    "src/"
   ]
 }

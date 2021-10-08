@@ -1,5 +1,3 @@
-export class VerticalSlice {
-    public Hello(): void {
-        console.log("Hello World");
-    }
-}
+export { verticalSliceContainer } from './verticalSlice';
+export { Handler } from './handler';
+export { IRequest, IRequestBase } from './request';
