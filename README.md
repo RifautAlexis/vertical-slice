@@ -1,3 +1,6 @@
+# Important !
+Work in progress ! Not yet finished !
+
 # Goal
 I'm trying to implement the Vertical Slice Architecture and use it through this package
 
