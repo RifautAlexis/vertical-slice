@@ -16,3 +16,5 @@
 
 lib/
 node_modules/
+
+.tgz
