@@ -15,9 +15,9 @@ class VerticalSlice {
         return await handler.handle(request);
     }
 
-    private GetTypeName(request: any): string {
+    private GetTypeName(request: IRequestBase): string {
         return request.constructor.name.toLowerCase();
     }
 }
 
-export const verticalSliceContainer = new VerticalSlice();
+export const verticalSlice = new VerticalSlice();
