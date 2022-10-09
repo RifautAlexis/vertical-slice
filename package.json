@@ -1,6 +1,6 @@
 {
   "name": "vertical-slice",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sugar for Vertical Slice Architecture base on MediatR whitout CQRS",
   "type": "commonjs",
   "main": "lib/index.js",
