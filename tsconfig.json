@@ -37,8 +37,10 @@
 
     /* Completeness */
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+
+    "moduleResolution": "node",
   },
   "include": [
     "src/"
-  ]
+  ],
 }
