@@ -1,3 +1,3 @@
-export { verticalSliceContainer } from './verticalSlice';
-export { Handler } from './handler';
+export { verticalSlice } from './verticalSlice';
+export { IHandler, IHandlerBase } from './handler';
 export { IRequest, IRequestBase } from './request';
