@@ -22,7 +22,6 @@
     "typescript"
   ],
   "homepage": "https://github.com/RifautAlexis/vertical-slice.git",
-  "keywords": [],
   "author": "Alexis Rifaut",
   "license": "MIT",
   "devDependencies": {
